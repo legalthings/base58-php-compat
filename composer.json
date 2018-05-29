@@ -1,0 +1,19 @@
+{
+    "name": "legalthings/base58-compat",
+    "description": "Userspace function as fallback for base58 extension",
+    "type": "library",
+    "require": {
+        "ext-base58": "*",
+        "stephenhill/base58": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LegalThings",
+            "email": "info@legalthings.io"
+        }
+    ],
+    "files": [
+        "src/base58.php"
+    ]
+}
