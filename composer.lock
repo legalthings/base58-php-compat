@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c1fb1107c72c3baf76ad143b0fd3a74",
+    "content-hash": "77e8cfa37aed0415316a4a6487d876b3",
     "packages": [
         {
             "name": "stephenhill/base58",
@@ -51,8 +51,6 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "ext-base58": "*"
-    },
+    "platform": [],
     "platform-dev": []
 }

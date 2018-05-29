@@ -3,8 +3,10 @@
     "description": "Userspace function as fallback for base58 extension",
     "type": "library",
     "require": {
-        "ext-base58": "*",
         "stephenhill/base58": "^1.1"
+    },
+    "provide": {
+        "ext-base58": "0.1.0"
     },
     "license": "MIT",
     "authors": [
@@ -13,7 +15,9 @@
             "email": "info@legalthings.io"
         }
     ],
-    "files": [
-        "src/base58.php"
-    ]
+    "autoload": {
+        "files": [
+            "src/base58.php"
+        ]
+    }
 }
